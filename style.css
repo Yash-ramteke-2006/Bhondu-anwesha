@@ -1,0 +1,299 @@
+*{box-sizing:border-box}html,body{margin:0;background:#090909;font-family:Arial,sans-serif}body{overflow-x:hidden}#site{width:100%}.page{position:absolute;left:50%;top:0;width:min(100vw,736px);min-height:100vh;overflow:hidden;opacity:0;visibility:hidden;transform:translate(-50%,18px) scale(.985);transition:.6s cubic-bezier(.2,.8,.2,1);background:#fff}.page.active{position:relative;opacity:1;visibility:visible;transform:translate(-50%,0) scale(1)}.asset{position:absolute;display:block;pointer-events:none;user-select:none}.grid-paper{position:absolute;inset:0;background-color:#eadbcf;background-image:linear-gradient(#d9c9bf 1px,transparent 1px),linear-gradient(90deg,#d9c9bf 1px,transparent 1px);background-size:23px 23px}.torn{position:absolute;left:0;right:0;height:90px;background:#79122f;clip-path:polygon(0 0,100% 0,100% 30%,88% 10%,75% 34%,63% 9%,50% 42%,38% 11%,25% 35%,12% 7%,0 35%)}.scrap{position:absolute;background:#f1b5bd;color:#35131b;padding:16px;font-family:Georgia,serif;font-size:18px;line-height:1.15;box-shadow:2px 4px 8px #0002}.scrap-a{right:18px;top:52px;transform:rotate(8deg)}.bow{left:95px;top:40px;width:130px}.cake{right:-3px;top:165px;width:150px}.title{position:absolute;top:38px;left:145px;text-align:center;font-family:Georgia,serif;font-weight:900;font-size:58px;line-height:.92;color:#050505;transform:rotate(-2deg)}.title div{margin:7px 0}.title span{display:inline-block;background:#eee4d8;padding:0 5px;margin:0 2px;box-shadow:2px 3px 0 #b9aaa0;transform:rotate(var(--r))}.polaroid{position:absolute;background:#f4ede5;padding:14px 13px 36px;box-shadow:0 8px 15px #0003;transform:rotate(-2deg)}.photo{width:390px;height:420px}.p1photo1{left:38px;top:205px}.p1photo2{right:42px;top:600px;transform:rotate(4deg);width:365px;height:380px}.photo-inner{width:100%;height:100%;background:linear-gradient(145deg,#8e233f,#c4576f 60%,#8d2846);display:grid;place-items:center;color:white;font-weight:800;font-size:34px;position:relative}.sparkle{position:absolute;color:#f6b5c5;font-size:30px;left:25%;top:15%}.reminder{position:absolute;right:32px;top:280px;width:285px;background:#eaa1af;padding:30px 24px 20px;transform:rotate(2deg);box-shadow:0 6px 12px #0002;text-align:center}.reminder p{font:20px Georgia;margin:0 0 20px}.reminder strong{font:28px Georgia;line-height:1.35}.reminder em{display:block;background:#991b3d;color:#fff;padding:9px;margin-top:20px;font:17px Georgia}.sticker-row{position:absolute;right:42px;top:545px;background:#f6e9df;padding:8px 13px;box-shadow:0 4px 8px #0002;font-size:24px}.good{left:12px;top:425px;transform:rotate(-7deg)}.p1flower{left:-18px;top:690px;width:225px}.ticket{left:-12px;top:850px;width:290px;transform:rotate(-9deg)}.thankful{left:215px;top:730px;transform:rotate(8deg)}.lucky{right:10px;top:930px;transform:rotate(8deg)}.memory-btn{position:absolute;left:210px;bottom:62px;width:280px;height:94px;border:0;border-radius:5px;background:#8e1538;color:white;transform:rotate(-2deg);box-shadow:0 5px 8px #0003;cursor:pointer;text-align:left;padding:8px 18px}.memory-btn span{font-size:14px;display:block;letter-spacing:2px}.memory-btn b{font:28px Georgia;display:block}.memory-btn small{font-size:13px;letter-spacing:2px}.bottom-note{position:absolute;left:215px;bottom:0;background:#8e1538;color:#fff;padding:12px 24px;font:20px Georgia;transform:rotate(-3deg)}.burgundy-paper{position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,#9b3345,#4d111c 65%,#28070d)}.p2-heading{position:absolute;left:325px;top:15px;background:#f3d3de;padding:2px 10px;font:37px Georgia;white-space:nowrap}.p2-intro{position:absolute;left:340px;top:53px;width:365px;margin:0;background:#f8dfe8;padding:4px 10px;font:18px Georgia;line-height:1.1}.p2-photo{position:absolute;background:#030303;border:9px solid #6f2835;box-shadow:0 5px 8px #0005;z-index:6;overflow:hidden}.left-top{left:22px;top:30px;width:292px;height:365px}.right-top{right:22px;top:145px;width:350px;height:315px}.left-bottom{left:22px;top:950px;width:292px;height:315px}.right-bottom{right:22px;top:850px;width:350px;height:300px}.p2flower{left:300px;top:145px;width:170px}.sun{left:-10px;top:305px;width:110px}.eye{position:absolute;left:95px;top:370px;width:550px;z-index:4;pointer-events:none}.besties{left:160px;top:700px;width:260px;z-index:5}.lips{right:100px;top:1070px;width:120px}.p2-text{position:absolute;background:#f8e7e8;color:#2a1518;padding:3px 7px;font:18px Georgia;line-height:1.05;z-index:3}.t1{left:14px;top:395px;width:290px}.t2{left:8px;top:700px;width:300px}.t3{right:5px;top:470px;width:300px}.t4{right:35px;top:1110px;width:330px;font-size:20px}.hotspot-eye{position:absolute;z-index:10;left:130px;top:405px;width:475px;height:475px;border:0;background:transparent;border-radius:50%;cursor:pointer}.news-bg{position:absolute;inset:0;background:#e7d8bd;background-image:radial-gradient(#fff8 1px,transparent 1px);background-size:8px 8px}.love-word{position:absolute;inset:60px 20px auto;font:44px Georgia;color:#555;opacity:.55;line-height:1.05;word-spacing:30px}.tulips{z-index:2}.top-tulips{right:-20px;top:-5px;width:310px}.left-tulips{left:-20px;bottom:-35px;width:330px}.right-tulips{right:-15px;bottom:-30px;width:300px}.collage{position:absolute;left:50%;top:315px;transform:translateX(-50%);width:620px;height:560px;z-index:4}.small,.main-photo{position:absolute;background:#050505;border:4px solid white;box-shadow:0 2px 3px #0004}.main-photo{left:185px;top:120px;width:260px;height:390px;display:grid;place-items:center;color:#fff;font:22px Arial}.s1{left:5px;top:45px;width:90px;height:80px}.s2{left:95px;top:25px;width:90px;height:110px}.s3{left:0;top:125px;width:185px;height:160px}.s4{left:5px;top:290px;width:80px;height:80px}.s5{left:95px;top:285px;width:90px;height:115px}.s6{left:105px;top:410px;width:70px;height:70px}.s7{right:90px;top:30px;width:100px;height:90px}.s8{right:0;top:60px;width:95px;height:85px}.s9{right:0;top:150px;width:150px;height:140px}.s10{right:70px;top:295px;width:80px;height:100px}.s11{right:0;top:300px;width:65px;height:110px}.s12{right:70px;top:420px;width:80px;height:70px}.hotspot-collage{position:absolute;left:calc(50% - 120px);top:440px;width:250px;height:380px;border:0;background:transparent;z-index:10;cursor:pointer}.white-paper{position:absolute;inset:0;background:#fff}.you-are{position:absolute;left:28px;top:18px;font-size:26px;letter-spacing:1px}.mine{position:absolute;left:30px;top:48px;font:48px Georgia;font-style:italic}.comfort{position:absolute;right:25px;top:18px;font-size:22px}.p4hearts{right:-5px;top:55px;width:190px}.p4bouquet{left:-20px;top:260px;width:145px}.p4butterfly{left:-5px;top:690px;width:145px}.p4bear{left:-5px;bottom:-5px;width:175px}.p4balloon{right:-10px;bottom:-10px;width:190px}.script-love{position:absolute;right:55px;top:305px;font:58px Georgia;font-style:italic;color:#777}.script-forever{position:absolute;right:20px;top:390px;font:38px Georgia;font-style:italic;color:#777;line-height:1.0;text-align:center}.letter{position:absolute;left:170px;top:165px;width:405px;text-align:center;color:#181818;font-size:19px;line-height:1.17}.letter p{margin:0}.letter p:first-child{margin-bottom:8px}.side-note{position:absolute;right:20px;top:780px;width:160px;font:29px Georgia;font-style:italic;color:#777;text-align:center}.mygirl{position:absolute;left:35px;top:570px;font:34px Georgia;font-style:italic}.page4:after{content:"";position:absolute;inset:0;border:18px solid transparent;pointer-events:none}
+/* =========================================================
+   BIRTHDAY-GIRL PHOTO SYSTEM
+   Replace assets/photos/photo01.jpg ... photo14.jpg.
+   Every image automatically crops/fits its frame.
+   No resizing, editing or positioning is needed.
+   ========================================================= */
+.girl-photo{
+  display:block;
+  width:100%;
+  height:100%;
+  min-width:0;
+  min-height:0;
+  object-fit:cover;
+  object-position:center center;
+  overflow:hidden;
+  border:0;
+  margin:0;
+  padding:0;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+
+.photo-inner .girl-photo{
+  position:absolute;
+  inset:0;
+  z-index:1;
+}
+
+.photo-inner .sparkle{
+  z-index:2;
+  pointer-events:none;
+  text-shadow:0 1px 5px rgba(0,0,0,.25);
+}
+
+.p2-photo{
+  overflow:hidden;
+}
+
+.p2-photo .girl-photo{
+  object-position:center center;
+}
+
+.small{
+  overflow:hidden;
+}
+
+.small .girl-photo{
+  position:absolute;
+  inset:0;
+}
+
+.main-photo{
+  overflow:hidden;
+}
+
+.main-photo .girl-photo{
+  position:absolute;
+  inset:0;
+}
+
+/* A gentle Ken-Burns style entrance for actual photos. */
+.page.active .girl-photo{
+  animation:photoSettle .8s cubic-bezier(.2,.8,.2,1) both;
+}
+
+@keyframes photoSettle{
+  from{opacity:.72;transform:scale(1.035)}
+  to{opacity:1;transform:scale(1)}
+}
+
+
+/* Page 2: birthday-girl photos are always visible inside their own frames. */
+.page2 .p2-photo .girl-photo{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+}
+
+.page2 .p2-photo::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  z-index:2;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
+}
+
+/* The central decoration must never hide the four actual photo frames. */
+.page2 .eye{
+  z-index:4;
+}
+.page2 .p2flower,
+.page2 .besties,
+.page2 .lips,
+.page2 .sun{
+  z-index:7;
+}
+
+@media(max-width:736px){.page{width:100vw}.title{font-size:clamp(39px,8vw,58px);left:19vw}.bow{left:11vw;width:18vw}.cake{width:20vw}.photo{width:53vw;height:56vw}.p1photo1{left:5vw;top:18.5vh}.p1photo2{right:5vw;top:55vh}.reminder{width:39vw;right:4vw;top:25vh}.reminder strong{font-size:4vw}.sticker-row{right:5vw;top:49vh;font-size:3vw}.p1flower{width:29vw}.ticket{width:38vw}.memory-btn{left:29vw;width:38vw}.p2-heading{left:44vw;font-size:5vw}.p2-intro{left:46vw;width:49vw;font-size:2.7vw}.p2-photo{border-width:7px}.left-top{left:3vw;width:40vw}.right-top{right:3vw;width:48vw}.left-bottom{left:3vw;width:40vw}.right-bottom{right:3vw;width:48vw}.eye{left:13vw;width:75vw}.hotspot-eye{left:17vw;width:66vw}.p2-text{font-size:2.7vw}.t1{width:41vw}.t2{width:41vw}.t3{width:42vw}.t4{width:45vw}.collage{width:86vw;height:70vh;top:26vh}.main-photo{left:30%;top:15%;width:38%;height:52%}.hotspot-collage{left:31%;top:36vh;width:38%;height:40vh}.letter{left:22vw;width:56vw;font-size:2.7vw}.mine{font-size:7vw}.comfort{font-size:3.2vw}.script-love{font-size:8vw}.script-forever{font-size:5vw}.side-note{font-size:4vw;width:25vw}.mygirl{font-size:5vw}}
+@media(min-width:737px){.page{min-height:1308px}.page1{min-height:1104px}.page3{min-height:1227px}}
+
+/* ==========================================================
+   IPHONE 16 MASTER LAYOUT — 393 x 852
+   Page 2 is deliberately reflowed so every birthday-girl
+   photo stays visible and never gets pushed below the page.
+   ========================================================== */
+@media (max-width: 500px) {
+  html, body {
+    width: 100%;
+    min-width: 0;
+    background: #4b101b;
+  }
+
+  .page {
+    width: 100vw;
+    height: 100dvh;
+    min-height: 852px;
+    max-height: none;
+    overflow: hidden;
+  }
+
+  /* PAGE 2 */
+  .page2 {
+    height: 852px;
+    min-height: 852px;
+    width: 393px;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .page2 .burgundy-paper {
+    inset: 0;
+    background:
+      radial-gradient(circle at 18% 12%, #a13b4e 0, #6e1c2d 35%, #3b0c15 100%);
+  }
+
+  .page2 .p2-heading {
+    left: 184px;
+    top: 12px;
+    width: 197px;
+    padding: 3px 6px;
+    font-size: 19px;
+    line-height: 1.05;
+    white-space: normal;
+    text-align: center;
+    z-index: 8;
+  }
+
+  .page2 .p2-intro {
+    left: 187px;
+    top: 55px;
+    width: 190px;
+    padding: 3px 5px;
+    font-size: 9px;
+    line-height: 1.08;
+    z-index: 8;
+  }
+
+  /* Four actual birthday-girl photos */
+  .page2 .p2-photo {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    background: #050505;
+    border: 5px solid #76293a;
+    box-shadow: 0 4px 8px rgba(0,0,0,.42);
+    overflow: hidden;
+  }
+
+  .page2 .left-top {
+    left: 8px;
+    top: 17px;
+    width: 166px;
+    height: 190px;
+  }
+
+  .page2 .right-top {
+    right: 8px;
+    top: 126px;
+    width: 171px;
+    height: 160px;
+  }
+
+  .page2 .left-bottom {
+    left: 8px;
+    top: 610px;
+    width: 166px;
+    height: 190px;
+  }
+
+  .page2 .right-bottom {
+    right: 8px;
+    top: 625px;
+    width: 171px;
+    height: 165px;
+  }
+
+  .page2 .p2-photo .girl-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 1;
+  }
+
+  /* Decorative pieces sit around the photos, not over them. */
+  .page2 .sun {
+    left: -8px;
+    top: 218px;
+    width: 62px;
+    z-index: 7;
+  }
+
+  .page2 .p2flower {
+    left: 155px;
+    top: 240px;
+    width: 88px;
+    z-index: 7;
+  }
+
+  .page2 .eye {
+    left: 77px;
+    top: 295px;
+    width: 240px;
+    z-index: 4;
+  }
+
+  .page2 .besties {
+    left: 116px;
+    top: 488px;
+    width: 160px;
+    z-index: 11;
+  }
+
+  .page2 .lips {
+    right: 45px;
+    top: 570px;
+    width: 70px;
+    z-index: 7;
+  }
+
+  .page2 .p2-text {
+    font-size: 9px;
+    line-height: 1.08;
+    padding: 3px 4px;
+    z-index: 8;
+  }
+
+  .page2 .t1 {
+    left: 8px;
+    top: 218px;
+    width: 155px;
+  }
+
+  .page2 .t2 {
+    left: 8px;
+    top: 390px;
+    width: 145px;
+  }
+
+  .page2 .t3 {
+    right: 8px;
+    top: 295px;
+    width: 154px;
+  }
+
+  .page2 .t4 {
+    right: 8px;
+    top: 515px;
+    width: 170px;
+    font-size: 9px;
+  }
+
+  .page2 .hotspot-eye {
+    left: 100px;
+    top: 305px;
+    width: 195px;
+    height: 175px;
+    z-index: 15;
+  }
+
+  /* Make the page-2 photo entrance subtle and contained. */
+  .page2.active .p2-photo .girl-photo {
+    animation: iphonePhotoSettle .65s cubic-bezier(.2,.8,.2,1) both;
+  }
+
+  @keyframes iphonePhotoSettle {
+    from { opacity: .5; transform: scale(1.04); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+}
